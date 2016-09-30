@@ -8,15 +8,7 @@ const User = mongoose.Schema({
   local: {
     email: String,
     password: String
-  },
-  twitter: {
-    id: String,
-    token: String,
-    displayName: String,
-    username: String
   }
-  // facebook: {id, token, email, name}
-  // google: {id, token, email, name}
 });
 
 // generating a hash
