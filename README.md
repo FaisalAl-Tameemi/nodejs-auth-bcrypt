@@ -9,7 +9,7 @@ A NodeJS Auth (email and twitter) Example with PassportJS.
 - ExpressJS Middleware
 - Cookies vs Sessions
 - ExpressJS Cookie Parser Middleware
-- Submitting forms
+- Submitting forms (login and signup)
 
 
 ## Steps
