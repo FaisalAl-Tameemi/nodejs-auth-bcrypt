@@ -1,7 +1,5 @@
 
-Hi folks,
-
-Today we reviewed and discussed the following:
+Reviewed and discussed the following:
 
 - ExpressJS Middleware
   - We did the example of simply counting the number of requests being made to our server using a simple middleware.
@@ -25,7 +23,7 @@ Today we reviewed and discussed the following:
 - ExpressJS Cookie Parser Middleware
 - Submitting forms (login and signup)
 
-We also discussed using `bcrypt` (an npm package) to allow us to do things such as encrypting a plain text password and then checking if login info the user types is actually inline with the user records in the backend.
+We discussed using `bcrypt` (an npm package) to allow us to do things such as encrypting a plain text password and then checking if login info the user types is actually inline with the user records in the backend.
 
 When signing up:
 
@@ -94,5 +92,3 @@ app.get('/login_success', (req, res) => {
   res.render('login_success');
 });
 ```
-
-Cheers,
