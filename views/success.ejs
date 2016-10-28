@@ -1,0 +1,9 @@
+<h3>
+  Profile created successfully.
+</h3>
+<% if (email.length > 0) { %>
+    <div class="alert alert-success"><%= email %></div>
+<% } %>
+<% if (password.length > 0) { %>
+    <div class="alert alert-warning"><%= password %></div>
+<% } %>
